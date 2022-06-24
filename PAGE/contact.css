@@ -1,0 +1,202 @@
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	margin: auto;
+	font-weight: bold;
+}
+#conteiner {
+	width: 1343px;
+	height: 1200px;
+	margin: auto;
+	border-style: inset;
+	border-color: green;
+}
+#header {
+	width: 1343px;
+	height: 80px;
+	/*border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;*/
+	text-align: center;
+	background-color: black;
+}
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 0.5%;
+	margin-bottom: 9px; 
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.button1 {
+	padding: 5px 5px;
+	background: #347032;
+}
+
+#title {
+	font-size: 300%; 	
+}
+
+#seccion1 {
+	background-color: cornflowerblue; 
+	height: 917px;
+}
+
+.card {
+  margin: auto;
+  text-align: center;
+  
+}
+
+#table1 {
+	background-color: white; 
+	margin-left: 1.5%;
+	margin-top: 0.5%;
+	float:left;
+   	position: relative;
+  	width: 250px;
+	height: 450px;
+	
+}
+
+#table2 {
+	background-color: white; 
+	height: 450px;
+	width: 250px;
+	float: left;
+	margin-left:1%;
+	margin-top: 0.5%;
+	position: relative; 
+}
+
+#table3 {
+	background-color: white; 
+	height: 450px;
+	width: 250px;
+	float: left;
+	margin-left:1%;
+	margin-top: 0.5%;
+	position: relative;
+}
+
+#table4 {
+	background-color: white; 
+	height: 450px;
+	width: 250px;
+	float: left;
+	margin-left:1%;
+	margin-top: 0.5%;
+	position: relative;
+}
+
+#table5 {
+	background-color: white; 
+	height: 450px;
+	width: 250px;
+	float: left;
+	margin-left:1%;
+	margin-top: 0.5%;
+	position: relative;
+}
+
+#footer {
+	width: 1343px;
+	height: 205px;
+	background-color: black;
+}
+
+#footerbuttons {
+	width: 1343px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px; 
+}
+
+.footerbtn {
+	padding: 5px 5px;
+	background: #347032;
+}
+
+#logo2 {
+	float: right;
+	padding-top: 10px;
+	width: 100%;
+	top: 25%; 	
+}
+
+#Copy {
+	text-align: center;
+	color: aliceblue;
+	
+}
+
+
+/*Animation Button*/
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span {
+	padding-right: 25px;
+}
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+/*social*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 150px 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+

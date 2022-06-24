@@ -1,0 +1,156 @@
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	margin: auto;
+	font-weight: bold;
+}
+#conteiner {
+	width: 1343px;
+	height: 1200px;
+	margin: auto;
+	border-style: inset;
+	border-color: green;
+}
+#header {
+	width: 1343px;
+	height: 80px;
+	text-align: center;
+	background-color: black;
+}
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 9px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+#title {
+	font-size: 300%;
+	background-color:cornflowerblue; 
+	margin-top:0.5%; 
+}
+#seccion1 {
+	background-color: cornflowerblue; 
+	height: 850px;
+}
+
+#seccion {
+	background-color: aqua; 
+	width: 297px;
+	height: 850px;
+	float: left;
+	margin-left:.5%;  
+}
+
+#table1 {
+	background-color: white; 
+	height: 400px; 
+	width: 1025px; 
+	margin-right: 10px;
+	margin-left: 310px;  
+	margin-bottom: 10px; 
+	
+}
+
+#table2 {
+	background-color: white; 
+	margin-right: 10px;
+	margin-left: 310px; 
+	margin-bottom: 10px; 
+	width: 500px; 
+	height: 200px; 
+	float: right; 
+}
+
+#table3 {
+	background-color: white; 
+	margin-right: 10px;
+	margin-left: 310px; 
+	margin-bottom: 10px; 
+	width: 500px; 
+	height: 200px;
+	float: right;
+}
+
+#table4 {
+	background-color: white; 
+	margin-right: 10px;
+	margin-left: 310px; 
+	margin-bottom: 10px; 
+	width: 500px; 
+	height: 200px; 
+	
+}
+
+#table5 {
+	background-color: white; 
+	margin-left: 310px; 
+	margin-bottom: 10px; 
+	width: 500px; 
+	height: 200px;
+	
+}
+
+#footer {
+	width: 1343px;
+	height: 205px;
+	background-color: black;
+}
+
+#footerbuttons {
+	width: 1343px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px; 
+}
+
+.footerbtn {
+	padding: 5px 5px;
+	background: #347032;
+}
+
+#logo2 {
+	float: right;
+	padding-top: 10px;
+	width: 100%;
+	top: 25%; 	
+}
+
+#Copy {
+	text-align: center;
+	color: aliceblue;
+	
+}
+
+
+/*Animation Button*/
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span {
+	padding-right: 25px;
+}
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}

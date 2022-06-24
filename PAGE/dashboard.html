@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FalconBit</title>
+<link href="dashboard.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="conteiner">
+  <div id="header">
+    <button class="button" style="width:auto;"><span>Home</span></button>
+    <button class="button" style="width:auto;"> <span> Profile</span></button>
+    <button class="button" style="width:auto;"><span>Dashboard</span></button>
+    <button class="button" style="width:auto;"><span>Contacts</span></button>
+    <button class="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span>Login </span></button>
+    <button class="button" onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><span>Sign Up</span></button>
+
+
+
+
+    <div id="title"> Dashboard</div>
+    <div id="seccion"> 
+      <img src= "pic/img_avatar.png" alt="Avatar" style="width:50%">
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      img {
+      border-radius: 50%;
+		  margin-top: 1%; 
+      }
+      </style>
+      </head>
+      <h1>name</h1>
+      <p>Last data entry</p>
+      <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'London')">Jueves 16/8/2018 </button>
+        <button class="tablinks" onmouseover="openCity(event, 'Paris')">Viernes 16/8/2018</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Tokyo</button>
+      </div>
+		
+      <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script> 
+		
+    </div>
+
+    <div id="seccion1">
+      <div id="table1">
+
+        <div id="London" class="tabcontent">
+          <h3>London</h3>
+          <p>London is the capital city of England.</p>
+        </div>
+        <div id="Paris" class="tabcontent">
+          <h3>Paris</h3>
+          <p>Paris is the capital of France.</p>
+        </div>
+        <div id="Tokyo" class="tabcontent">
+          <h3>Tokyo</h3>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+        <style>
+* {box-sizing: border-box}
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    height: 300px;
+	margin-left:20%; 
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 5px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 17px;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-left: none;
+    height: 100%;
+    display: none;
+}
+
+</style>
+      </div>
+      <div id="table2">Content for  id "table2" Goes Here </div>
+      <div id="table3">Content for  id "table3" Goes Here</div>
+      <div id="table4">Content for  id "table4" Goes Here</div>
+      <div id="table5">Content for  id "table5" Goes Here</div>
+    </div>
+
+
+    <footer id="footer">
+      <div id="footerbuttons">
+        <button class="footerbtn" style="width:auto;"><span>Home</span></button>
+        <button class="footerbtn" style="width:auto;"> <span> Profile</span></button>
+        <button class="footerbtn" style="width:auto;"><span>Contacts</span></button>
+        <button class="footerbtn" style="width:auto;"><span>Dashboard</span></button>
+        <div id="logo2"><img src="pic/ppnewblanco.png" width="100" height="80" alt=""/></div>
+        <button class="footerbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span>Login </span></button>
+        <button class="footerbtn" onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><span>Sign Up</span></button>
+        <div id="Copy">Copyright Ⓒ 2018, FalconBit, Corp. All Rights Reserved.</div>
+      </div>
+    </footer>
+    
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	margin: auto;
+	font-weight: bold;
+}
+#conteiner {
+	width: 1343px;
+	height: 1200px;
+	margin: auto;
+	border-style: inset;
+	border-color: green;
+}
+#header {
+	width: 1343px;
+	height: 80px;
+	text-align: center;
+	background-color: black;
+}
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 9px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+#Title {
+	width: 1343px;
+	height: 10px;
+}
+#topheader {
+	width: 1343px;
+	height: 56px;
+	background-color: #0c4b45;
+	text-align: center;
+	font-size: x-large;
+}
+
+#banner {
+	width: 1343px;
+	height: 500px;
+}
+
+/*Title over pic*/
+.Title {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 400%;
+}
+
+#seccion2 {
+	width: 447px;
+	height: 415px;
+	background: linear-gradient(to right, #339933 0%, #00cc00 100%);
+	
+}
+#seccion3 {
+	background: linear-gradient(to right, #00cc00 0%, #009933 100%);
+	width: 449px;
+	height: 415px;
+	float: right;
+}
+
+#seccion {
+	width: 449px;
+	height: 415px;
+	float: right;
+	background: linear-gradient(to right, #009933 0%, #33cc33 100%);
+}
+
+
+
+#logo, #logo1, #logo3 {
+	margin-top: 5%;
+	margin-left: 40%;
+}
+#text, #text77, #text78 {
+	text-align: center;
+}
+#text1, #text2, #text3 {
+	text-align: center;
+}
+
+#footer {
+	width: 1343px;
+	height: 205px;
+	background-color: black;
+}
+
+#footerbuttons {
+	width: 1343px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px; 
+}
+
+.footerbtn {
+	padding: 5px 5px;
+	background: #347032;
+}
+
+#logo2 {
+	float: right;
+	padding-top: 10px;
+	width: 100%;
+	top: 25%; 	
+}
+
+#Copy {
+	text-align: center;
+	color: aliceblue;
+	
+}
+
+/*Animation Button*/
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span {
+	padding-right: 25px;
+}
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+/*CSS Login*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+button:hover {
+	opacity: 0.8;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+.container1 {
+	padding: 16px;
+}
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+.close:hover, .close:focus {
+	color: red;
+	cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+ @-webkit-keyframes animatezoom {
+ from {
+-webkit-transform: scale(0)
+}
+ to {
+-webkit-transform: scale(1)
+}
+}
+ @keyframes animatezoom {
+ from {
+transform: scale(0)
+}
+ to {
+transform: scale(1)
+}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+	display: block;
+	float: none;
+}
+.cancelbtn {
+	width: 100%;
+}
+}
